@@ -1,2 +1,2 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-io.github.liuziyuan.retrofit.spring.boot.reactor.SpringBootConfig
+io.github.liuziyuan.retrofit.spring.boot.reactor.RetrofitSpringBootReactorConfig
