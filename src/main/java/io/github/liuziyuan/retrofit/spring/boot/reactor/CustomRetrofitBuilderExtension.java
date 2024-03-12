@@ -5,6 +5,7 @@ import io.github.liuziyuan.retrofit.core.RetrofitBuilderExtension;
 import io.github.liuziyuan.retrofit.core.builder.*;
 
 import java.util.ArrayList;
+
 public class CustomRetrofitBuilderExtension implements RetrofitBuilderExtension {
 
     @Override
@@ -26,6 +27,7 @@ public class CustomRetrofitBuilderExtension implements RetrofitBuilderExtension 
     public Class<? extends BaseCallAdapterFactoryBuilder>[] globalCallAdapterFactoryBuilderClazz() {
         return new ArrayList<Class<? extends BaseCallAdapterFactoryBuilder>>() {{
             add(ReactorCallAdapterFactoryBuilder.class);
+            add(RxJava3CallAdapterFactoryBuilder.class);
         }}.toArray(new Class[0]);
     }
 
