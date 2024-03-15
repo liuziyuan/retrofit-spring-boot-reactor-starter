@@ -1,4 +1,4 @@
-# Retrofit Spring boot web starter
+# Retrofit Spring boot reactor starter
 
 [中文文档](https://github.com/liuziyuan/retrofit-spring-boot-reactor-starter/blob/master/README.zh_CN.md)
 

@@ -1,4 +1,4 @@
-# Retrofit Spring boot web starter
+# Retrofit Spring boot reactor starter
 ## 说明
 简化Retrofit在Springboot项目中的使用，当你的项目中使用了Spring WebFlux组件，那么你可以使用`retrofit-spring-boot-reactor-starter`作为Retrofit Client进行Http请求,
 组件提供了异步的Adapter和基于Jackson的Converter.
