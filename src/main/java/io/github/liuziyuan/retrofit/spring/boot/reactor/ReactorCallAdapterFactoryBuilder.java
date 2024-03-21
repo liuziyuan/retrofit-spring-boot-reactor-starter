@@ -7,6 +7,6 @@ import retrofit2.CallAdapter;
 public class ReactorCallAdapterFactoryBuilder extends BaseCallAdapterFactoryBuilder {
     @Override
     public CallAdapter.Factory buildCallAdapterFactory() {
-        return ReactorCallAdapterFactory.create();
+        return ReactorCallAdapterFactory.createAsync();
     }
 }
