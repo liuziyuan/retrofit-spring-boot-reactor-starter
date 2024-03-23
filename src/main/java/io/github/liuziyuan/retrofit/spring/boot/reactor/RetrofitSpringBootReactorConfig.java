@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Configuration;
 public class RetrofitSpringBootReactorConfig {
     @Bean
     @ConditionalOnMissingBean
-    public CustomRetrofitBuilderExtension retrofitSpringBootReactorConfig() {
+    public CustomRetrofitBuilderExtension customRetrofitBuilderExtension() {
         return new CustomRetrofitBuilderExtension();
     }
 }
